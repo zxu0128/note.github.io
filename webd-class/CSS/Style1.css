@@ -1,0 +1,153 @@
+body{
+	background: #FFEDD6;
+	margin: 4%;
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+	background: #71BFBB; 
+	padding: 15px;
+}
+
+h1{
+	font-family: Impact;
+}
+
+h2{
+	background: #C9DA79;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-variant: small-caps;
+	font-style: oblique;
+	padding: 9px;
+}
+
+h3{
+	font-family: Arial Black, "Time New Roman", Serif;
+	font-weight: 900;
+	font-variant: small-caps;
+	background: #FFF27F;
+	opacity: 95%;
+	padding: 3px;
+}
+
+nav{font-size: 105%;
+	font-family: Arial, "Time New Roman", Serif;
+}
+
+nav a{
+	width: 100px;
+	display: inline-block;
+}
+
+details{
+	font-style: italic;
+}
+
+summary{
+	font-style: normal;
+}
+
+footer{
+	background: #71BFBB;
+}
+
+div{
+	border: solid 3px #FFFFFF;
+	padding: 15px;
+	margin: 20px;
+	background-color: #FAFFF6;
+}
+
+.bkgpic{
+	background-image: url("../bkgpic1.jpeg");
+	background-repeat: no-repeat;
+	background-position: -10px, 30px;
+	border-radius: 10px;
+	background-size: auto 200%;
+}
+
+a:hover{
+	background:#FAA519;
+}
+
+a:active{
+	border: 3px solid #FFFFFF;
+}
+
+.current{
+	color:#000000;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.alpha:first-line {
+	color: #9C00FF;
+	font-size: 16px;
+}
+
+li:nth-child(3n+5) {
+	color: #797979;
+	font-weight:bold;
+}
+
+a[href^="https://"]{
+	color: #1C5411;
+	font-weight: bold;
+}
+
+a:after {
+  color: #9799a7;
+  content: " (" attr(href) ")";
+  font-size: 11px;
+}
+
+header, footer{
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-border-radius: 25px;
+
+	background: #FFE689;
+	background: -moz-linear-gradient(top, #D078FF 0%, #C0E0EB 80%);
+	background: -webkit-linear-gradient(#D078FF 0%, #C0E0EB 80%);
+	background: linear-gradient(#D078FF 0%, #C0E0EB 80%);
+	padding: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.week2{
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-border-radius: 25px;
+
+	background: #FFE689;
+	background: -moz-linear-gradient(top, #FFE689 10%, #D6F4BA 60%);
+	background: -webkit-linear-gradient(#FFE689 10%, #D6F4BA 60%);
+	background: linear-gradient(#FFE689 10%, #D6F4BA 60%);
+	padding: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.half{
+	background: #466368;
+	background: radial-gradient(#FFF4A4, #FFBDDF);
+	width: 46%;
+	margin-right: 2%;
+	display: inline-block;
+	float:left;
+}
+
+.whole{
+	clear:both;
+}
+
+p:first-letter{
+	font-style: italic;
+}
+
+
+
+
+
+
